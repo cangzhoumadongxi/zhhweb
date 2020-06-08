@@ -1,0 +1,271 @@
+	*{
+		padding:0;
+		margin:0;
+	}
+	a{
+		text-decoration:none;
+	}
+	ul,li{
+		list-style:none;
+	}
+	/*头部*/
+	.header-wrap{
+		width:100%;
+		height:30px;
+		background-color:rgb(244,244,244);
+		border:1px solid rgb(236,236,236);
+	}
+	.header{
+		width:1200px;
+		height:30px;
+		margin:0 auto;
+	}
+	.p1{
+		float:left;
+		color:rgb(51,51,51);
+		font-size:14px;
+		font-family: 微软雅黑;
+		height:30px;
+		line-height:30px;
+	}
+	.p2{
+		float:right;
+	color: #0da0b4;;
+		font-size:14px;
+		font-family:微软雅黑;
+		height:30px;
+		line-height:30px;
+	}
+	.tu1 img{
+		float:left;
+		margin:8px 5px 0px 12px;
+	}
+	.header a{
+		color:rgb(51,51,51);
+		font-size:14px;
+		font-family:微软雅黑;
+	}
+	.a1{
+		margin-right:12px;
+	}
+	/*头部与导航之间*/
+	.bet{
+		margin:0 auto;
+		position:relative;
+		background-image: url('tu/shangtu.jpg');
+		width:1920px;
+		height:120px;
+	}
+	.pic1{
+		float:left;
+		margin:25px 0 0 0px;
+		position: relative;
+		top: 20px;
+	}
+	.inp1 input{
+		width:405px;
+		height:40px;
+		position:absolute;
+		left:382px;
+		top:38px;
+		border:none 0;
+		border:2px solid rgb(248,56,56);
+		font-size:14px;
+		color:rgb(188,188,188);
+		margin:0px;
+		text-indent:20px;
+		font-family:微软雅黑;
+	}
+	.inp2 input{
+		width:95px;
+		height:44px;
+		position:absolute;
+		left:790px;
+		top:38px;
+		border:none 0;
+		border:2px solid rgb(248,56,56);
+		background-color:rgb(248,56,56); 
+		font-size:16px;
+		color:rgb(255,255,255);
+		margin:0px;
+		text-align:center;
+		font-family:微软雅黑;
+	}
+	.shop{
+		width:150px;
+		height:40px;
+		line-height:40px;
+		position:absolute;
+		left:1050px;
+		top:40px;
+		background-color:rgb(245,245,245);
+		font-size:14px;
+		font-family:微软雅黑;
+		border:1px solid rgb(227,227,227);
+	}
+	.bet img{
+		float:left;
+		margin:10px 5px 10px 25px;
+	}
+	#red1{
+		color:rgb(248,56,56);
+	}
+	/*导航*/
+	.nav-wrap{
+		width:100%;
+		border-bottom:5px solid ;
+	}
+	.nav ul{
+		width:1200px;
+		height:35px;
+		margin:0 auto;
+	}
+	.nav li{
+		width:90px;
+		height:33px;
+		display: inline-block;
+		line-height: 33px;
+		text-align:center;
+		margin:0px 0px 3px 25px;
+		border-radius:4px/4px;
+	}
+	.nav li:hover{
+		background-color:rgb(253,3,4);
+	}
+	.nav li:hover a{
+		color:#fff;
+	}
+	.nav a{
+		font-family:微软雅黑;
+		color:#FF9900;
+		font-size: 18px;
+		letter-spacing: 1px;
+	}
+	/* banner图 */
+	.two{
+		height: 420px;
+		background:rgba(29,11,106,1);
+		background-image: url('tu/demaxiya.jpg');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+	.two1{
+		height: 420px;
+		width: 1200px;
+		margin: 0 auto;
+		margin-left: 20px;
+	}
+	.two1 ul{
+		height: 420px;
+		width: 190px;
+		background:rgba(0,0,0,0.3);
+		padding-left: 10px;
+	}
+	.two1 ul li{
+		font-size:14px;
+		font-family:Microsoft YaHei;
+		font-weight:400;
+		color:white;
+		line-height:44px;
+	}
+	/*主体*/
+	.dabu{
+		position: relative;
+		top: 30px;
+		margin: 0 auto;
+	}
+	.dabu>div{
+		float: left;
+		margin-top: 0;
+		width: 200px;
+		height: 250px;
+		margin-left: 40px;
+		background:#FBFAC6;
+		box-shadow:0px 2px 5px 0px #FFD700;
+	}
+	.dabuziti{
+		margin: 0 auto;
+		line-height:25px;
+		margin-left:24px;
+		margin-top:10px;;
+		font-size:18px;
+		font-family:Microsoft YaHei;
+		font-weight:400;
+		color:#050505;
+	}
+	/*底部*/
+	.footer-wrap{
+		float:left;
+		width:100%;
+		height:251px;
+		background-color:rgb(46,46,46);
+		margin-top: 40px;
+	}
+	.footer1{
+		width:1200px;
+		height:150px;
+		margin:0 auto;
+		border-bottom:1px solid rgb(69,69,69);
+	}
+	.footer1 ul{
+		float:left;
+		display:inline-block;
+		border:none;
+	}
+	.foot1{
+		width:84px;
+		line-height:30px;
+		margin:15px 0px 15px 0px;
+	}
+	.foot2{
+		width:84px;
+		line-height:30px;
+		margin:15px 195px 15px 0px;
+	}
+	.footer1 li>a{
+		font-size:14px;
+		font-family:微软雅黑;
+		font-weight:lighter;
+		color:rgb(255,255,255);
+	}
+	#ziti{
+		margin-bottom:5px;
+	}
+	#ziti>a{
+		margin-bottom:10px;
+		font-size:16px;
+		font-family:微软雅黑;
+		font-weight:lighter;
+		color:rgb(255,255,255);
+	}
+	.footer2{
+		
+		width:1200px;
+		height:100px;
+		border-bottom:1px solid rgb(69,69,69);
+		margin:0 auto;
+	}
+	.foot3{
+		float:left;
+		width:1200px;
+		font-size:14px;
+		font-family:微软雅黑;
+		font-weight:lighter;
+		color:rgb(158,158,158);
+		margin:20px 0px 20px 320px;
+	}
+	.foot3 a{
+		font-size:14px;
+		font-family:微软雅黑;
+		font-weight:lighter;
+		color:rgb(158,158,158);
+	}
+
+	.foot4{
+		margin:0px 0px 0px 320px;
+		font-size:14px;
+		font-family:微软雅黑;
+		font-weight:lighter;
+		color:rgb(158,158,158);
+	}
+</style>
